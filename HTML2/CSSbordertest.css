@@ -1,0 +1,17 @@
+.buttonx{
+    border: 3px dotted red; 
+}
+.buttonx:hover{
+    background-color: blueviolet;
+}
+.buttonx:active{
+    transform: scale(0.8);
+}
+
+.textalot{
+    border-color:
+}
+
+p{
+    background-color: blueviolet;
+}

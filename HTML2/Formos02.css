@@ -1,0 +1,16 @@
+@font-face {
+    font-family:Protest;
+    src: url("./ProtestRevolution-Regular.ttf");
+}
+
+.link:visited{
+    color: red;
+}
+body{
+    background-color: white;
+    font-family: Protest;
+}
+
+.link1:focus{
+    color: red;
+   /* background-color: red; */

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Užklausa</title>
+</head>
+<body>
+    <header>
+        <h1>Svajonių Kelionės</h1>
+            <ul>
+                <a href="./index.html"><img src="./home2.jpg" alt="home" width="30" height="30"></a><br/>
+                <a href="./02Login.html" target="_blank">Log in</a><br/>
+            </ul>
+            <nav>
+                <ul type="a">
+                    <li><a href="./index.html#kelioniuPasiulymai" target="_blank">Kelonių pasiūlymai</a></li>
+                    <li><a href="./index.html#patarimaiKeliaujantiems" target="_blank">Patarimai keliaujantiems</a></li>
+                    <li><a href="./index.html#autonuoma" target="_blank">Autonuoma</a></li>
+                    <li><a href="./index.html#kelioniuzurnalas" target="_blank">Kelionių žurnalas</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+        <form action="./index.html">
+            <h2>Reikalavimų užklausa</h2>
+
+            <label for="vardas">Vardas</label>
+            <input type="text" id="vardas" name="vardas" required>
+
+            <label for="email">El. paštas</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="tel">Telefonas</label>
+            <input type="tel" id="tel" name="tel" required>
+
+            <fieldset>
+                <legend>Šalis</legend>
+
+                <label for="birthnation">Gimimo šalis</label>
+
+                <select name="salis" id="birthnation" required>
+                    <option value="">--Kurioje šalyje jūs gimėte?--</option>
+                    <option value="lietuvoje">Lietuvoje</option>
+                    <option value="rusijoje">Rusijoje</option>
+                    <option value="anglijoje">Anglijoje</option>
+                    <option value="junginese_valstyjose">Jungtinėse Valstyjose</option>
+                </select>
+
+                <label for="country">Dabartinė gyvenamoji šalis</label>
+
+                <select name="salis" id="country" required>
+                    <option value="">--Kurioje šalyje gyvenate šiuo metu?--</option>
+                    <option value="lietuva">Lietuva</option>
+                    <option value="rusija">Rusija</option>
+                    <option value="anglija">Anglija</option>
+                    <option value="jungtines_valstyjos">Jungtinės Valstijos</option>
+                </select>
+
+                <label for="nationality">Tautybė</label>
+
+                <select name="salis" id="nationality" required>
+                    <option value="">--Kokia jūsų tautybė?--</option>
+                    <option value="lietuvis">Lietuvis(ė)</option>
+                    <option value="rusas">Rusas(ė))</option>
+                    <option value="anglas">Anglas(ė)</option>
+                    <option value="amerikietis">Amerikietis(ė))</option>
+                </select>
+            </fieldset>
+
+            <label for="date">Data</label>
+            <input type="date" id="date" name="date" required>
+
+            <fieldset>
+                <legend>Amžiaus grupė</legend>
+
+                <label for="kudykis">Kudykis</label>
+                <input type="radio" id="kudykis" name="agegroup">
+
+                <label for="vaikas">Vaikas</label>
+                <input type="radio" id="vaikas" name="agegroup">
+
+                <label for="]paauglis">Paauglis(ė)</label>
+                <input type="radio" id="paauglis" name="agegroup">
+
+                <label for="suauges">Suaugęs(usi)</label>
+                <input type="radio" id="suauges" name="agegroup">
+
+                <label for="pasenes">Pasenęs(usi))</label>
+                <input type="radio" id="pasenes" name="agegroup">
+            </fieldset>
+
+            <fieldset>
+                <legend>Turimi gyvūnai</legend>
+
+                <label for="katinas">Katinas</label>
+                <input type="checkbox" id="katinas" name="gyvunai">
+
+                <label for="suo">Šuo</label>
+                <input type="checkbox" id="suo" name="gyvunai">
+
+                <label for="triusis">Triušis</label>
+                <input type="checkbox" id="triusis" name="gyvunai">
+
+                <label for="paukstis">Paukštis</label>
+                <input type="checkbox" id="paukstis" name="gyvunai">
+            </fieldset>
+
+            <label for="about">Apibūdinkite save</label>
+            <textarea name="about" id="about" cols="30" rows="10" placeholder="Apibūdinkite save"></textarea><br/>
+
+            <input type="submit">
+        </form>
+
+    </main>
+    
+    <footer>
+        <p><h4>Kontaktai:</h4> Tel:866106005 <h4>Adresas</h4>J. Jasinskio g. 16C, 01112 Vilnius</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2306.3335748446607!2d25.258001577052763!3d54.686157373638366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd954b6c148137%3A0xc545a4715122ca95!2sNovaturas!5e0!3m2!1slt!2slt!4v1708522034603!5m2!1slt!2slt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,20 @@
+.img1{
+    width: 100%;
+    object-fit: contain;
+}
+.img2{
+    width: 100%;
+    object-fit: fill;
+}
+.img3{
+    width: 100%;
+    object-fit: cover;
+}
+.img4{
+    width: 100%;
+    object-fit: none;
+}
+.img5{
+    width: 100%;
+    object-fit: scale-down;
+}

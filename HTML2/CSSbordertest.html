@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSSbordertest.css">
+    <title>CSSbordertest</title>
+</head>
+<body>
+    <h1>Pristatymo Adresas</h1>
+
+    <h3>PIRKĖJAS     GAVĖJAS</h3>
+    <form>
+        <fieldset>
+            <label for="vardas">Vardas</label>
+            <input type="text" id="vardas" name="vardas">
+
+            <label for="pavarde">Pavardė</label>
+            <input type="text" id="pavarde" name="pavarde"> <br />
+
+            <label for="tel">Telefonas</label>
+            <input type="tel" id="tel" name="tel" placeholder="Pvz: +37066105555" pattern="[0-9][+]" min="9" required max="12">
+            <small>Jei norite gauti informacija apie užsakymo vykdymo eigą SMS žinute, prašome įvesti lietuvišką tel. nr<small><br/>
+
+            <label for="imone">Įmonės Pavadinimas</label>
+            <input type="text" id="imone" name="imone"> <br />
+
+            <label for="miestas">Miestas</label>
+            <select name="miestas" id="miestas">
+                <option value="">--Pasirinkite--</option>
+                <option value="naujoji akmene">Naujoji Akmenė</option>
+                <option value="kaunas">Kaunas</option>
+            </select>
+
+            <label for="adresas">Adresas</label>
+            <input type="text" id="adresas" name="adresas"> <br />
+
+            <label for="pastokodas">Pašto kodas(tik skaičiai)</label>
+            <input type="number" id="pastokodas" name="pastokodas"> <br />
+
+            <button type="reset" name="atsaukti">Atšaukti</button>
+            <button type="submit" name="issaugoti">Išsaugoti pakeitimus</button>
+        </fieldset>
+
+        <button class="buttonx">the button</button>
+    </form>
+
+    <h2>antraste</h2>
+    <p class="textalot" border="1">textalot textalot textalot textalottextalottextalottextalottextalottextalottextalottextalottextalottextalottextalottextalottextalottextalottextalottextalottextalottextalottextalottextalottextalot</p>
+</body>
+</html>

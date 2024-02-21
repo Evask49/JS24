@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7 Uzduotis</title>
+</head>
+<body>
+    <form>
+        <label for="userid">User ID</label>
+        <input type="text" id="userid" name="userid"><br/>
+
+        <label for="password">Slaptažodis</label>
+        <input type="password" id="password" name="password" required min="7" required max="12" required><br/>
+
+        <label for="name">Vardas</label>
+        <input type="text" id="name" name="name" pattern="[A-Z][a-z]" required minlength="1"><br/>
+
+        <label for="address">Adresas</label>
+        <input type="text" id="address" name="address"><br/>
+
+        <label for="country">Šalis</label>
+
+        <select name="country" id="country">
+            <option value="">--Pasirinkite šalį--</option>
+            <option value="Lietuva">Lietuva</option>
+            <option value="Rusija">Rusija</option>
+            <option value="Jungtinės_Valstijos">Jungtinės Valstijos</option>
+            <option value="anglija">Anglija</option>
+        </select>
+
+        <label for="zip">Zip kodas</label>
+        <input type="number" id="zip" name="zip" required minlength="1">
+
+        <label for="email">El. paštas</label>
+        <input type="email" id="email" name="email" required>
+
+        <fieldset>
+            <legend>Lytis</legend>
+
+            <input type="radio" id="vyras" name="Lytis">
+            <label for="vyras">Vyras</label>
+
+            <input type="radio" id="moteris" name="Lytis">
+            <label for="moteris">Moteris</label>
+        </fieldset>
+
+        
+        <fieldset>
+            <legend>Žinomos kalbos</legend>
+
+            <input type="checkbox" id="lietuviu" name="kalbos">
+            <label for="lietuviu">Lietuvių</label>
+
+            <input type="checkbox" id="anglu" name="kalbos">
+            <label for="anglu">Anglų</label>
+
+            <input type="checkbox" id="vokieciu" name="kalbos">
+            <label for="vokieciu">Vokiečių</label>
+
+            <input type="checkbox" id="japonu" name="kalbos">
+            <label for="japonu">Japonų</label>
+        </fieldset>
+
+        <label for="about">About</label>
+        <textarea name="about" id="about" cols="50" rows="10"></textarea><br/>
+
+        <input type="submit">
+    </form>
+</body>
+</html>

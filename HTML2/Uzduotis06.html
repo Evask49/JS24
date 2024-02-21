@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h2, initial-scale=1.0">
+    <title>6 Uzduotis</title>
+</head>
+<body>
+    <h2>Novell Services Login</h2>
+    <form>
+        <label for="vardas">Vardas</label>
+        <input type="text" id="vardas" name="vardas"><br/>
+
+        <label for="pavarde">Pavardė</label>
+        <input type="text" id="pavarde" name="pavarde"><br/>
+
+        <label for="email">El. paštas</label>
+        <input type="email" id="email" name="email"><br/>
+
+        <label for="password">Slaptažodis</label>
+        <input type="password" id="password" name="password"><br/>
+
+        <fieldset>
+            <legend>Pristatymo informacija</legend>
+
+            <label for="gatve">Gatvė:</label>
+            <input type="text" id="gatve" name="pristatymas"><br/>
+
+            <label for="namo_numeris">Namo numeris:</label>
+            <input type="number" id="namo_numeris" name="pristatymas"><br/>
+
+            <label for="miestas">Miestas:</label>
+
+            <select name="pristatymas" id="miestas">
+                <option value="">--Pasirinkite miestą--</option>
+                <option value="Naujoji Akmenė">Naujoji Akmenė</option>
+                <option value="Kaunas">Kaunas</option>
+                <option value="Šiauliai">Šiauliai</option>
+                <option value="Vilnius">Vilnius</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Pasirinkite apmokėjimo būdą</legend>
+
+            <input type="radio" id="apmokejimas" name="apmokejimas">
+            <label for="apmokejimas">Swedbank</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Pasirinkite dovanėlės</legend>
+
+            <input type="checkbox" id="ausines" name="dovana">
+            <label for="ausines">Ausines</label>
+
+            <input type="checkbox" id="kvepalai" name="dovana">
+            <label for="kvepalai">Kvepalai</label>
+
+            <input type="checkbox" id="spotify" name="dovana">
+            <label for="spotify">Mėnesio Spotify prenumerata</label>
+
+            <input type="checkbox" id="pakabukas" name="dovana">
+            <label for="pakabukas">Pakabukas</label>
+        </fieldset>
+
+        <label for="pastabos">Komentarai, pastabos</label>
+        <textarea name="pastabos" id="pastabos" cols="30" rows="10" disabled></textarea> <br/>
+
+        <input type="submit" id="uzsakyti" name="uzsakyti" value="Užsakyti">
+    </form>
+</body>
+</html>
