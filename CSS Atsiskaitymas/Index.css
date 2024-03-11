@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+@media (max-width: 480px) {
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    
+}
+
+@media (min-width: 789px) and (max-width: 1232px) {
+    .headerContainer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: white;
+        border: solid black 1px;
+        height: 10vh;
+        align-items: center;
+    }
+    .logo {
+        justify-content: flex-start;
+        order: 1;
+        flex: 1 1 10vw;
+    }
+
+    .headerTitle {
+        justify-content: flex-start;
+        order: 2;
+        flex: 1 1 10vw;
+    }
+
+    .nav {
+        justify-content: flex-end;
+        flex: 1 1 30vw;
+    }
+}
