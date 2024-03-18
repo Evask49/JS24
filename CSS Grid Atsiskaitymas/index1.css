@@ -1,0 +1,62 @@
+* { 
+    box-sizing: border-box;
+    border-radius: 5%;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+    gap: 5px;
+    text-align: center;
+
+    grid-template-areas: 
+    ".      stage1 stage2 stage3 stage4 stage5 stage6 stage7"
+    "time1         talk1 talk1 talk4 talk5 talk5 talk9 talk9"
+    "time2       talk1 talk1 talk4 break1 break1 talk9 talk9"
+    "time3         talk1 talk1 talk4 talk6 talk6 talk9 talk9"
+    "time4       break2 break2 talk4 talk6 talk6 talk9 talk9"
+    "time5      talk23 talk23 talk23 talk6 talk6 talk9 talk9"
+    "time6      talk23 talk23 talk23 talk6 talk6 talk9 talk9"
+    "time7  break3 break3 break3 break3 break3 break3 break3"
+    "time8                   talk7 talk7 . . . talk10 talk10"
+    "time9       talk7 talk7 talk8 talk8 talk8 talk10 talk10"
+    "time10      talk7 talk7 talk8 talk8 talk8 talk10 talk10";
+}
+
+.stage1 {grid-area: stage1; background-color: lightgray;}
+.stage2 {grid-area: stage2; background-color: lightgray;}
+.stage3 {grid-area: stage3; background-color: lightgray;}
+.stage4 {grid-area: stage4; background-color: lightgray;}
+.stage5 {grid-area: stage5; background-color: lightgray;}
+.stage6 {grid-area: stage6; background-color: lightgray;}
+.stage7 {grid-area: stage7; background-color: lightgray;}
+
+.time1 {grid-area: time1; background-color: lightgray;}
+.time2 {grid-area: time2; background-color: lightgray;}
+.time3 {grid-area: time3; background-color: lightgray;}
+.time4 {grid-area: time4; background-color: lightgray;}
+.time5 {grid-area: time5; background-color: lightgray;}
+.time6 {grid-area: time6; background-color: lightgray;}
+.time7 {grid-area: time7; background-color: lightgray;}
+.time8 {grid-area: time8; background-color: lightgray;}
+.time9 {grid-area: time9; background-color: lightgray;}
+.time10 {grid-area: time10; background-color: lightgrey;}
+
+.talk1 {grid-area: talk1; background-color: lightblue;}
+.talk23 {grid-area: talk23; background-color: lightblue;}
+.talk4 {grid-area: talk4; background-color: lightgreen;}
+.talk5 {grid-area: talk5; background-color: pink;}
+.talk6 {grid-area: talk6; background-color: pink}
+.talk7 {grid-area: talk7; background-color: lightblue;}
+.talk8 {grid-area: talk8; background-color: lightgreen;}
+.talk9 {grid-area: talk9; background-color: lightyellow;}
+.talk10 {grid-area: talk10; background-color: lightyellow;}
+
+.break1 {grid-area: break1; background-color: lightgray;}
+.break2 {grid-area: break2; background-color: lightgray;}
+.break3 {grid-area: break3; background-color: lightgray;}
+
+.hBlue {color: blue;}
+.hRed {color: red;}
+.hOrange {color: orange;}
