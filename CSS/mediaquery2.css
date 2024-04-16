@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    height: 100vh;
+    margin: 0px;
+}
+
+
+@media (max-width:480) {
+    .header {
+        height: 15%;
+        background-color: blueviolet;
+        color: white;
+        text-align: center;
+    }
+    .nav {
+        height: 15%;
+        background-color: darkblue;
+        color: white;
+        text-align: center;
+        clear: both;
+    }
+    .main {
+        height: 50%;
+        width: 70%;
+        background-color: lightblue;
+        color: white;
+        text-align: center;
+        clear: both;
+        float: left;
+    }
+    .aside {
+        height: 50%;
+        width: 30%;
+        background-color: blueviolet;
+        color: white;
+        text-align: center;
+        float: right;
+    }
+    .footer {
+        height: 15%;
+        background-color: darkblue;
+        color: white;
+        text-align: center;
+        clear: both;
+    }
+}
+
+@media (min-width:481px) and (max-width:1300px) {
+    .header {
+        height: 20%;
+        background-color: blueviolet;
+        color: white;
+        text-align: center;
+    }
+    .nav {
+        height: 15%;
+        background-color: darkblue;
+        color: white;
+        text-align: center;
+        clear: both;
+    }
+    .main {
+        height: 50%;
+        width: 70%;
+        background-color: lightblue;
+        color: white;
+        text-align: center;
+        clear: both;
+        float: left;
+    }
+    .aside {
+        height: 50%;
+        width: 30%;
+        background-color: blueviolet;
+        color: white;
+        text-align: center;
+        float: right;
+    }
+    .footer {
+        height: 15%;
+        background-color: darkblue;
+        color: white;
+        text-align: center;
+        clear: both;
+    }
+}

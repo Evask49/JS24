@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+.card {
+    background-color: gray;
+    height: 100vh;
+    width: 100vw;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-areas:
+    "card__img card__img"
+    "card__img card__img"
+    "card__img card__img"
+    "card__heading ." 
+    "card__content-text card__content-text"
+    "card__content-text card__content-text"
+    "card__content-text card__content-text"
+    "card__btn--primary card__btn--secondary";
+}
+.card__img {
+    grid-area: card__img card__im;
+    width: 80%;
+    height: 300px;
+    justify-content: center;
+    align-content: center;
+    opacity: 0.7;
+    object-fit: contain;
+}
+
+.card__heading {grid-area: card__heading;}
+
+.card__content-text {grid-area: card__content-text;}
+
+.card__btn--primary {
+    grid-area: card__btn--primary;
+    background-color: blue;
+}
+.card__btn--secondary {
+    grid-area: card__btn--secondary;
+    background-color: red;
+}

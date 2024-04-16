@@ -1,0 +1,11 @@
+nera atskiri failai. Turi buti vienas html. Before and after naudoti.
+Vienas puslapis. Su skrolinimu eina kitos skaidres.
+Su flex.
+Responsive design
+navigacijos nuskrolina i vieta puslapyje
+
+Galima darytis pagal bet kokia tema, tik struktura kopijuoti
+
+container - 2 vaikai (p ir img)
+
+jeigu neiseis animation su navigacija kai yra plonas vaizdas, tai nebutina

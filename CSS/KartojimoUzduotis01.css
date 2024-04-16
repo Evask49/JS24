@@ -1,0 +1,25 @@
+
+.remeliui {
+    height: 300px;
+    width: 300px;
+    border: 5px;
+    border: dotted;
+    border-radius: 20px;
+}
+
+img{
+    width: 150px;
+    height: 300px;
+    float: right;
+    border-radius: 20px;
+}
+
+h2 {
+    float: left;
+    width: 150px;
+}
+h6 {
+    float: left;
+    clear: left;
+    width: 150px;
+}

@@ -1,0 +1,14 @@
+@use './variables';
+@use './header';
+
+.contact {
+    // @include flexCenter(row, blue);
+    @extend header; /* Inherits styles*/
+    background: lightcoral;
+    width: 100% - 20%;
+}
+
+// .good {
+//     &__area { background-color: aquamarine; }
+//     &__img { width: 100px; height: 100px; }
+// }

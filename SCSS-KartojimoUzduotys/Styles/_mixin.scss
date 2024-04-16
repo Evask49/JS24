@@ -1,0 +1,13 @@
+@mixin gridCenter($background) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 5px;
+    grid-template-areas:
+    "img1 img2 img3"
+    "img4 img5 img6";
+    justify-content: center;
+    align-items: center;
+
+    background: $background;
+}

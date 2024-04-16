@@ -1,0 +1,89 @@
+
+body{ 
+    box-sizing: border-box;
+    height: 100vh;
+}
+@media (min-width: 468px) { 
+
+    .d1{
+        display: inline-block;
+        background-color: green;
+        float: left;
+        height: 60%;
+        width: 50%;
+    }
+
+    .d2{
+        display: inline-block;
+        background-color: red;
+        float: right;
+        height: 60%;
+        width: 50%;
+    }
+
+    .d3{
+        display: inline-block;
+        background-color: blue;
+        clear: both;
+        float: left;
+        height: 30%;
+        width: 33.3%;
+    }
+
+    .d4{
+        display: inline-block;
+        background-color: yellow;
+        float: left;
+        height: 30%;
+        width: 33.3%;
+    }
+
+    .d5{
+        display: inline-block;
+        background-color: aqua;
+        float: right;
+        height: 30.3%;
+        width: 33%;
+    }
+}
+
+@media (min-width: 50px) and (max-width: 467px) { 
+
+    .d1{
+        display: block;
+        background-color: purple;
+        height: 16.6%;
+        width: 100%;
+    }
+
+    .d2{
+        display: block;
+        background-color: aquamarine;
+        height: 16.6%;
+        width: 100%;
+    }
+
+    .d3{
+        display: block;
+        background-color: yellowgreen;
+        height: 16.6%;
+        width: 100%;
+    }
+
+    .d4{
+        display: block;
+        background-color: brown;
+        height: 16.6%;
+        width: 100%;
+    }
+
+    .d5{
+        display: block;
+        background-color: red;
+        height: 16.6%;
+        width: 100%;
+    }
+}
+
+
+
