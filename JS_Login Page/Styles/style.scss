@@ -1,0 +1,41 @@
+@use "./variables"
+
+body {
+    box-sizing: border-box;
+    background-color: $secondColor;
+    width: 1280px;
+    height: 720px;
+    top: -361px;
+    left: -640px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.form1 {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 398px;
+    top: 161px;
+    left: 490px;
+    gap: 0px;
+    border-width: 0px, 0px, 0px, 0px;
+    border: solid, #FFFFFF;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+}
+
+&img1 {
+    width: 119.39px;
+    height: 97.85px;
+    top: 161px;
+    left: 580px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+&btn1 {
+    background-color: $firstColor;
+    text-align: center;
+}
